@@ -12,7 +12,7 @@ print(f'Database Connected!\n', '='*40)
 bot_last_message = types.Message
 wish = ''
 
-token: str = '6070580163:AAFKRJt7nnNWL__vunKkFVz1r1IZ6xDJgXI'
+token: str = ''
 bot = telebot.TeleBot(token)
 Exceptions = ['При обработке запроса возникла ошибка! Возможно, не удалось зайти в ваш аккаунт. Проверьте ваш логин и пароль.']
 
